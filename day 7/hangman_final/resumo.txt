@@ -1,0 +1,44 @@
+
+Projeto: Jogo da Forca (Hangman)
+
+Este é um projeto em Python que implementa o clássico jogo da forca (hangman), onde o objetivo é adivinhar uma palavra secreta com base em uma lista de palavras.
+
+### Funcionalidades principais:
+
+1. **Escolha Aleatória de Palavra**: O jogo escolhe aleatoriamente uma palavra de uma lista predefinida.
+2. **Interface de Jogo**: Através de um logo visual e da limpeza da tela, o jogo oferece uma interface limpa para o usuário.
+3. **Adivinhação de Letras**: O jogador deve adivinhar uma letra por vez. O programa verifica se a letra adivinhada está presente na palavra.
+4. **Controle de Vidas**: O jogador começa com 6 vidas. Cada palpite errado reduz uma vida. Se as vidas chegarem a zero, o jogo termina e o jogador perde.
+5. **Condição de Vitória**: O jogador vence se adivinhar todas as letras da palavra antes de perder todas as vidas.
+
+### Como Funciona:
+
+1. **Início do Jogo**:
+   - O jogo escolhe uma palavra aleatória de uma lista de palavras e define o número de vidas (6).
+   - A tela do console é limpa e o logo do jogo é exibido.
+   
+2. **Adivinhação**:
+   - O jogador adivinha uma letra por vez.
+   - Se a letra estiver na palavra, ela será revelada nas posições corretas.
+   - Se a letra não estiver na palavra, o número de vidas é reduzido em 1.
+
+3. **Fim do Jogo**:
+   - O jogo termina se o jogador adivinhar a palavra corretamente ou se perder todas as vidas.
+
+4. **Exibição do Status**:
+   - A cada rodada, o estado atual das letras acertadas é mostrado.
+   - O status do jogo também é mostrado com o número de vidas restantes e o estágio atual da forca.
+
+### Arquivos Utilizados:
+
+- **hangman_art.py**: Contém o logo do jogo, os estágios da forca e as mensagens de vitória/perda.
+- **hangman_words.py**: Contém uma lista de palavras para o jogo.
+- **main.py**: O arquivo principal que controla o fluxo do jogo, como escolha de palavras, adivinhação de letras, e controle de vidas.
+
+### Como Rodar:
+
+1. Execute o script Python principal.
+2. O jogo irá exibir o logo e solicitará ao jogador para adivinhar uma letra.
+3. Continue jogando até que o jogador vença ou perca.
+
+Boa sorte e divirta-se!
